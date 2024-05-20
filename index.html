@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- //DataBase Modeling, Payment Gatway Integration -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- <div class="sidebar">
+        <div class="hdn-head">
+            <h2>Hello, Sign In</h2>
+        </div>
+        <div class="hdn-content">
+            <h3>Digital Content & Devices</h3>
+            <ul>
+                <div>
+                    <li>Amazon Music</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>Amazon Music</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>Amazon Music</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>Amazon Music</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>Amazon Music</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+            </ul>
+        </div>
+        <div class="line"></div>
+        <div class="hdn-content">
+            <h3>Digital Content & Devices</h3>
+            <ul>
+                <div>
+                    <li>Amazon Music</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>Amazon Music</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>Amazon Music</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>Amazon Music</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>Amazon Music</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+            </ul>
+        </div>
+        <div class="line"></div>
+        <div class="hdn-content">
+            <h3>Digital Content & Devices</h3>
+            <ul>
+                <div>
+                    <li>Amazon Music</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>Amazon Music</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>Amazon Music</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>Amazon Music</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>Amazon Music</li><i class="fa-solid fa-angle-right"></i>
+                </div>
+            </ul>
+        </div>
+
+    </div> -->
+    <!-- <i class="fa-solid fa-xmark"></i>
+    <div class="triangle"></div> -->
+    <!-- <div class="hdn-sign">
+        <div class="hdn-table">
+            <div>
+                <h3>Your Lists</h3>
+                <ul><li>Create a list</li>
+                <li>find a list and Registry</li>
+            <li>Amazon Smile Charity Lists</li></ul>
+            </div>
+            <div class="hdn-line">
+
+            </div>
+            <div>
+                <h3>Your Account</h3>
+                <ul>
+                    <li>Acount</li>
+                    <li>Orders</li>
+                    <li>Recommendation</li>
+                    <li>Browsing History</li>
+                    <li>Watchlist</li>
+                    <li>Video Purchases</li>
+                    <li>kindle Unlimited</li>
+                    <li>Content and devices</li>
+                    <li>Subscribe to save Items</li>
+                    <li>Membership</li>
+                    <li>Music Library</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="black"></div> -->
+
+    <header>
+        <div class="first">
+            <div class="flex logo">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="Images/Logo AMZ.jpeg" alt="" srcset="">
+                </a>
+                <div class="map flex">
+                    <i class="fas fa-map-marker"></i>
+                    <div>
+                        <span>Deliver to</span>
+                        <span>India</span>
+                    </div>
+                </div>
+            </div>
+            <div class="flex input">
+                <div>
+                    <span>
+                        All
+                    </span>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <input type="text" name="" id="">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="flex right">
+                <div class="flex lang">
+                    <img src="./Images/American fleg.png" alt="" srcset="">
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="sign">
+                    <span>Hello, Sign in</span>
+                    <div class="flex ac">
+                        <span>Account & Lists</span>
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+                <div class="flex cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="ca">Cart</span>
+                    <p>0</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="second">
+            <div class="second-1">
+                <div>
+                    <i class="fas fa-bars"></i>
+                    <span>All</span>
+                </div>
+            </div>
+            <div class="second-2">
+                <ul>
+                    <li>Today's Deal</li>
+                    <li>Customer Service</li>
+                    <li>Registry</li>
+                    <li>Gift Cards</li>
+                    <li>Sell</li>
+                </ul>
+            </div>
+            <div class="second-3">
+                <span>Shop Valentine's Day</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="sec-1">
+        <div class="container">
+            <div class="container-1">
+                <div class="para">
+                    <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local
+                        delivery. <a href="http://" target="_blank" rel="noopener noreferrer">Click here to go to
+                            amazon.in</a></p>
+
+                </div>
+                <div class="product-comp">
+                    <div class="box">
+                        <h3>Gaming Accessories</h3>
+                        <div class="box-a">
+                            <div>
+                                <div>
+                                    <img src="./Images/Gaming-product-1-headset.jpg" alt="">
+                                    <span>Headset</span>
+                                </div>
+                                <div>
+                                    <img src="./Images/Gaming-product-2-keyboard.jpg" alt="">
+                                    <span>Keyboard</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src="./Images/Gaming-product-3-mouse.jpg" alt="">
+                                    <span>Mouse</span>
+                                </div>
+                                <div>
+                                    <img src="./Images/Gaming-product-4-chair.jpg" alt="">
+                                    <span>Chair</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">See More</a>
+                    </div>
+                    <div class="box">
+                        <h3>Gaming Accessories</h3>
+                        <div class="box-b">
+                            <img src="./Images/Deals-In-PC-Desktop.jpg" alt="">
+                            <span>Headset</span>
+                        </div>
+                        <a href="#">See More</a>
+                    </div>
+                    <div class="box">
+                        <h3>Gaming Accessories</h3>
+                        <div class="box-a">
+                            <div>
+                                <div>
+                                    <img src="./Images/Refresh-your-space-1-Dining.jpg" alt="">
+                                    <span>Headset</span>
+                                </div>
+                                <div>
+                                    <img src="./Images/Refresh-your-space-2-Home.jpg" alt="">
+                                    <span>Keyboard</span>
+                                </div>
+                            </div>
+                            <div style="padding-top: 1vw;">
+                                <div>
+                                    <img src="./Images/Refresh-your-space-3-kitchen.jpg" alt="">
+                                    <span>Mouse</span>
+                                </div>
+                                <div>
+                                    <img src="./Images/Refresh-your-space-4-Health&Beauty.jpg" alt="">
+                                    <span>Chair</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">See More</a>
+                    </div>
+                    <div class="box">
+                        <h3>Gaming Accessories</h3>
+                        <div class="box-a">
+                            <div class="AmazonGadget">
+                                <div>
+                                    <img src="./Images/Amazon Gadget1.jpg" alt="" style="width:23vw; height: 10vw;">
+                                    <span>Headset</span>
+                                </div>
+                                <div class="three">
+
+                                    <div>
+                                        <img src="./Images/Amazon Gadget2.jpg" alt="" style="width:7.5vw;">
+                                        <span>Keyboard</span>
+                                    </div>
+
+
+                                    <div>
+                                        <img src="./Images/amazon Gadget3.jpg" alt="" style="width:7.5vw;">
+                                        <span>Mouse</span>
+                                    </div>
+                                    <div>
+                                        <img src="./Images/Amazon Gadget4.jpg" alt="" style="width:7.5vw;">
+                                        <span>Chair</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">See More</a>
+                    </div>
+
+                </div>
+                <div class="product-comp">
+                    <div class="box">
+                        <h3>Gaming Accessories</h3>
+                        <div class="box-a">
+                            <div>
+                                <div>
+                                    <img src="./Images/Gaming-product-1-headset.jpg" alt="">
+                                    <span>Headset</span>
+                                </div>
+                                <div>
+                                    <img src="./Images/Gaming-product-2-keyboard.jpg" alt="">
+                                    <span>Keyboard</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src="./Images/Gaming-product-3-mouse.jpg" alt="">
+                                    <span>Mouse</span>
+                                </div>
+                                <div>
+                                    <img src="./Images/Gaming-product-4-chair.jpg" alt="">
+                                    <span>Chair</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">See More</a>
+                    </div>
+                    <div class="box">
+                        <h3>Gaming Accessories</h3>
+                        <div class="box-b">
+                            <img src="./Images/Deals-In-PC-Desktop.jpg" alt="">
+                            <span>Headset</span>
+                        </div>
+                        <a href="#">See More</a>
+                    </div>
+                    <div class="box">
+                        <h3>Gaming Accessories</h3>
+                        <div class="box-a">
+                            <div>
+                                <div>
+                                    <img src="./Images/Refresh-your-space-1-Dining.jpg" alt="">
+                                    <span>Headset</span>
+                                </div>
+                                <div>
+                                    <img src="./Images/Refresh-your-space-2-Home.jpg" alt="">
+                                    <span>Keyboard</span>
+                                </div>
+                            </div>
+                            <div style="padding-top: 1vw;">
+                                <div>
+                                    <img src="./Images/Refresh-your-space-3-kitchen.jpg" alt="">
+                                    <span>Mouse</span>
+                                </div>
+                                <div>
+                                    <img src="./Images/Refresh-your-space-4-Health&Beauty.jpg" alt="">
+                                    <span>Chair</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">See More</a>
+                    </div>
+                    <div class="box">
+                        <h3>Gaming Accessories</h3>
+                        <div class="box-a">
+                            <div class="AmazonGadget">
+                                <div>
+                                    <img src="./Images/Amazon Gadget1.jpg" alt="" style="width:23vw; height: 10vw;">
+                                    <span>Headset</span>
+                                </div>
+                                <div class="three">
+
+                                    <div>
+                                        <img src="./Images/Amazon Gadget2.jpg" alt="" style="width:7.5vw;">
+                                        <span>Keyboard</span>
+                                    </div>
+
+
+                                    <div>
+                                        <img src="./Images/amazon Gadget3.jpg" alt="" style="width:7.5vw;">
+                                        <span>Mouse</span>
+                                    </div>
+                                    <div>
+                                        <img src="./Images/Amazon Gadget4.jpg" alt="" style="width:7.5vw;">
+                                        <span>Chair</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">See More</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="slider">
+                <div class="image-box">
+                    <div class="slide">
+                        <img src="./Images/slider-1.jpg" alt="" srcset="">
+                    </div>
+                    <div class="slide">
+                        <img src="./Images/slider-2.jpg" alt="" srcset="">
+                    </div>
+                    <div class="slide">
+                        <img src="./Images/slider-3.jpg" alt="" srcset="">
+                    </div>
+                    <div class="slide">
+                        <img src="./Images/slider-4.jpg" alt="" srcset="">
+                    </div>
+                    <div class="slide">
+                        <img src="./Images/slider-5.jpg" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="sec-2">
+
+        <div class="slide-sec">
+            <!-- <div class="left">hello</div> -->
+            <div class="l-btn"><i class="fa-solid fa-chevron-left"></i></div>
+            <div class="r-btn"><i class="fa-solid fa-chevron-right"></i></div>
+            <h3>
+                Top Sellers in books for you
+            </h3>
+
+            <ul class="product-slide">
+
+                <li><img src="./Images/Sec-2/first.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/second.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/third.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fourth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fifth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/sixth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/seventh.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/Eights.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/ninth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/tenth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/eleventh.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twelth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fourteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-nine.jpg" alt="" srcset=""></li>
+                <!-- <li><img src="./Images/Sec-2/fifteen.jpg" alt="" srcset="" width="133"height="449"></li> -->
+                <li><img src="./Images/Sec-2/sixteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/seventeen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/eighteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/ninteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-one.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-two.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-three.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-five.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-six.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-seven.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-eight.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-nine.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirty.jpg" alt="" srcset=""></li>
+
+            </ul>
+        </div>
+    </section>
+
+    <section class="sec-3">
+
+        <div class="slide-sec">
+            <!-- <div class="left">hello</div> -->
+            <div class="l-btn left3"><i class="fa-solid fa-chevron-left"></i></div>
+            <div class="r-btn right3"><i class="fa-solid fa-chevron-right"></i></div>
+            <h3>
+                Top Sellers in books for you
+            </h3>
+
+            <ul class="product-slide3">
+
+                <li><img src="./Images/Sec-2/first.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/second.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/third.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fourth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fifth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/sixth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/seventh.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/Eights.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/ninth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/tenth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/eleventh.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twelth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fourteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-nine.jpg" alt="" srcset=""></li>
+                <!-- <li><img src="./Images/Sec-2/fifteen.jpg" alt="" srcset="" width="133"height="449"></li> -->
+                <li><img src="./Images/Sec-2/sixteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/seventeen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/eighteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/ninteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-one.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-two.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-three.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-five.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-six.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-seven.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-eight.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-nine.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirty.jpg" alt="" srcset=""></li>
+
+            </ul>
+        </div>
+    </section>
+
+    <section class="sec-4">
+        <div class="container">
+            <div class="container-4">
+                <div class="product-comp">
+                    <div class="box">
+                        <h3>Gaming Accessories</h3>
+                        <div class="box-a">
+                            <div>
+                                <div>
+                                    <img src="./Images/Gaming-product-1-headset.jpg" alt="">
+                                    <span>Headset</span>
+                                </div>
+                                <div>
+                                    <img src="./Images/Gaming-product-2-keyboard.jpg" alt="">
+                                    <span>Keyboard</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src="./Images/Gaming-product-3-mouse.jpg" alt="">
+                                    <span>Mouse</span>
+                                </div>
+                                <div>
+                                    <img src="./Images/Gaming-product-4-chair.jpg" alt="">
+                                    <span>Chair</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">See More</a>
+                    </div>
+                    <div class="box">
+                        <h3>Gaming Accessories</h3>
+                        <div class="box-b">
+                            <img src="./Images/Deals-In-PC-Desktop.jpg" alt="">
+                            <span>Headset</span>
+                        </div>
+                        <a href="#">See More</a>
+                    </div>
+                    <div class="box">
+                        <h3>Gaming Accessories</h3>
+                        <div class="box-a">
+                            <div>
+                                <div>
+                                    <img src="./Images/Refresh-your-space-1-Dining.jpg" alt="">
+                                    <span>Headset</span>
+                                </div>
+                                <div>
+                                    <img src="./Images/Refresh-your-space-2-Home.jpg" alt="">
+                                    <span>Keyboard</span>
+                                </div>
+                            </div>
+                            <div style="padding-top: 1vw;">
+                                <div>
+                                    <img src="./Images/Refresh-your-space-3-kitchen.jpg" alt="">
+                                    <span>Mouse</span>
+                                </div>
+                                <div>
+                                    <img src="./Images/Refresh-your-space-4-Health&Beauty.jpg" alt="">
+                                    <span>Chair</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">See More</a>
+                    </div>
+                    <div class="box">
+                        <h3>Gaming Accessories</h3>
+                        <div class="box-a">
+                            <div class="AmazonGadget">
+                                <div>
+                                    <img src="./Images/Amazon Gadget1.jpg" alt="" style="width:23vw; height: 10vw;">
+                                    <span>Headset</span>
+                                </div>
+                                <div class="three">
+
+                                    <div>
+                                        <img src="./Images/Amazon Gadget2.jpg" alt="" style="width:7.5vw;">
+                                        <span>Keyboard</span>
+                                    </div>
+
+
+                                    <div>
+                                        <img src="./Images/amazon Gadget3.jpg" alt="" style="width:7.5vw;">
+                                        <span>Mouse</span>
+                                    </div>
+                                    <div>
+                                        <img src="./Images/Amazon Gadget4.jpg" alt="" style="width:7.5vw;">
+                                        <span>Chair</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">See More</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="sec-5">
+        <!-- <section class="sec-3"> -->
+
+        <div class="slide-sec">
+            <!-- <div class="left">hello</div> -->
+            <div class="l-btn left5"><i class="fa-solid fa-chevron-left"></i></div>
+            <div class="r-btn right5"><i class="fa-solid fa-chevron-right"></i></div>
+            <h3>
+                Top Sellers in books for you
+            </h3>
+
+            <ul class="product-slide5">
+
+                <li><img src="./Images/Sec-2/first.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/second.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/third.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fourth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fifth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/sixth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/seventh.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/Eights.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/ninth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/tenth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/eleventh.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twelth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fourteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-nine.jpg" alt="" srcset=""></li>
+                <!-- <li><img src="./Images/Sec-2/fifteen.jpg" alt="" srcset="" width="133"height="449"></li> -->
+                <li><img src="./Images/Sec-2/sixteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/seventeen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/eighteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/ninteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-one.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-two.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-three.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-five.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-six.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-seven.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-eight.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-nine.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirty.jpg" alt="" srcset=""></li>
+
+            </ul>
+        </div>
+    </section>
+
+    <section class="sec-6">
+        <!-- <section class="sec-3"> -->
+
+        <div class="slide-sec">
+            <!-- <div class="left">hello</div> -->
+            <div class="l-btn left6"><i class="fa-solid fa-chevron-left"></i></div>
+            <div class="r-btn right6"><i class="fa-solid fa-chevron-right"></i></div>
+            <h3>
+                Top Sellers in books for you
+            </h3>
+
+            <ul class="product-slide6">
+
+                <li><img src="./Images/Sec-2/first.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/second.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/third.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fourth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fifth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/sixth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/seventh.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/Eights.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/ninth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/tenth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/eleventh.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twelth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fourteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-nine.jpg" alt="" srcset=""></li>
+                <!-- <li><img src="./Images/Sec-2/fifteen.jpg" alt="" srcset="" width="133"height="449"></li> -->
+                <li><img src="./Images/Sec-2/sixteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/seventeen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/eighteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/ninteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-one.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-two.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-three.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-five.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-six.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-seven.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-eight.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-nine.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirty.jpg" alt="" srcset=""></li>
+
+            </ul>
+        </div>
+    </section>
+
+    <section class="sec-7">
+        <div class="container">
+            <div class="container-7">
+                <div class="product-comp">
+                    <div class="box">
+                        <h3>Gaming Accessories</h3>
+                        <div class="box-a">
+                            <div>
+                                <div>
+                                    <img src="./Images/Gaming-product-1-headset.jpg" alt="">
+                                    <span>Headset</span>
+                                </div>
+                                <div>
+                                    <img src="./Images/Gaming-product-2-keyboard.jpg" alt="">
+                                    <span>Keyboard</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src="./Images/Gaming-product-3-mouse.jpg" alt="">
+                                    <span>Mouse</span>
+                                </div>
+                                <div>
+                                    <img src="./Images/Gaming-product-4-chair.jpg" alt="">
+                                    <span>Chair</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">See More</a>
+                    </div>
+                    <div class="box">
+                        <h3>Gaming Accessories</h3>
+                        <div class="box-b">
+                            <img src="./Images/Deals-In-PC-Desktop.jpg" alt="">
+                            <span>Headset</span>
+                        </div>
+                        <a href="#">See More</a>
+                    </div>
+                    <div class="box">
+                        <h3>Gaming Accessories</h3>
+                        <div class="box-a">
+                            <div>
+                                <div>
+                                    <img src="./Images/Refresh-your-space-1-Dining.jpg" alt="">
+                                    <span>Headset</span>
+                                </div>
+                                <div>
+                                    <img src="./Images/Refresh-your-space-2-Home.jpg" alt="">
+                                    <span>Keyboard</span>
+                                </div>
+                            </div>
+                            <div style="padding-top: 1vw;">
+                                <div>
+                                    <img src="./Images/Refresh-your-space-3-kitchen.jpg" alt="">
+                                    <span>Mouse</span>
+                                </div>
+                                <div>
+                                    <img src="./Images/Refresh-your-space-4-Health&Beauty.jpg" alt="">
+                                    <span>Chair</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">See More</a>
+                    </div>
+                    <div class="box">
+                        <h3>Gaming Accessories</h3>
+                        <div class="box-a">
+                            <div class="AmazonGadget">
+                                <div>
+                                    <img src="./Images/Amazon Gadget1.jpg" alt="" style="width:23vw; height: 10vw;">
+                                    <span>Headset</span>
+                                </div>
+                                <div class="three">
+
+                                    <div>
+                                        <img src="./Images/Amazon Gadget2.jpg" alt="" style="width:7.5vw;">
+                                        <span>Keyboard</span>
+                                    </div>
+
+
+                                    <div>
+                                        <img src="./Images/amazon Gadget3.jpg" alt="" style="width:7.5vw;">
+                                        <span>Mouse</span>
+                                    </div>
+                                    <div>
+                                        <img src="./Images/Amazon Gadget4.jpg" alt="" style="width:7.5vw;">
+                                        <span>Chair</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">See More</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="sec-8">
+        <!-- <section class="sec-3"> -->
+
+        <div class="slide-sec">
+            <!-- <div class="left">hello</div> -->
+            <div class="l-btn left8"><i class="fa-solid fa-chevron-left"></i></div>
+            <div class="r-btn right8"><i class="fa-solid fa-chevron-right"></i></div>
+            <h3>
+                Top Sellers in books for you
+            </h3>
+
+            <ul class="product-slide8">
+
+                <li><img src="./Images/Sec-2/first.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/second.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/third.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fourth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fifth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/sixth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/seventh.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/Eights.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/ninth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/tenth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/eleventh.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twelth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fourteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-nine.jpg" alt="" srcset=""></li>
+                <!-- <li><img src="./Images/Sec-2/fifteen.jpg" alt="" srcset="" width="133"height="449"></li> -->
+                <li><img src="./Images/Sec-2/sixteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/seventeen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/eighteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/ninteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-one.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-two.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-three.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-five.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-six.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-seven.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-eight.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-nine.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirty.jpg" alt="" srcset=""></li>
+
+            </ul>
+        </div>
+    </section>
+
+    <section class="sec-9">
+        <!-- <section class="sec-3"> -->
+
+        <div class="slide-sec">
+            <!-- <div class="left">hello</div> -->
+            <div class="l-btn left9"><i class="fa-solid fa-chevron-left"></i></div>
+            <div class="r-btn right9"><i class="fa-solid fa-chevron-right"></i></div>
+            <h3>
+                Top Sellers in books for you
+            </h3>
+
+            <ul class="product-slide9">
+
+                <li><img src="./Images/Sec-2/first.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/second.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/third.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fourth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fifth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/sixth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/seventh.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/Eights.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/ninth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/tenth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/eleventh.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twelth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fourteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-nine.jpg" alt="" srcset=""></li>
+                <!-- <li><img src="./Images/Sec-2/fifteen.jpg" alt="" srcset="" width="133"height="449"></li> -->
+                <li><img src="./Images/Sec-2/sixteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/seventeen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/eighteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/ninteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-one.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-two.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-three.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-five.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-six.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-seven.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-eight.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-nine.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirty.jpg" alt="" srcset=""></li>
+
+            </ul>
+        </div>
+    </section>
+
+    <section class="sec-10">
+        <!-- <section class="sec-3"> -->
+
+        <div class="slide-sec">
+            <!-- <div class="left">hello</div> -->
+            <div class="l-btn left10"><i class="fa-solid fa-chevron-left"></i></div>
+            <div class="r-btn right10"><i class="fa-solid fa-chevron-right"></i></div>
+            <h3>
+                Top Sellers in books for you
+            </h3>
+
+            <ul class="product-slide10">
+
+                <li><img src="./Images/Sec-2/first.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/second.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/third.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fourth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fifth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/sixth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/seventh.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/Eights.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/ninth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/tenth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/eleventh.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twelth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fourteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-nine.jpg" alt="" srcset=""></li>
+                <!-- <li><img src="./Images/Sec-2/fifteen.jpg" alt="" srcset="" width="133"height="449"></li> -->
+                <li><img src="./Images/Sec-2/sixteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/seventeen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/eighteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/ninteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-one.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-two.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-three.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-five.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-six.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-seven.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-eight.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-nine.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirty.jpg" alt="" srcset=""></li>
+
+            </ul>
+        </div>
+    </section>
+
+    <section class="sec-11">
+        <!-- <section class="sec-3"> -->
+
+        <div class="slide-sec">
+            <!-- <div class="left">hello</div> -->
+            <div class="l-btn left11"><i class="fa-solid fa-chevron-left"></i></div>
+            <div class="r-btn right11"><i class="fa-solid fa-chevron-right"></i></div>
+            <h3>
+                Top Sellers in books for you
+            </h3>
+
+            <ul class="product-slide11">
+
+                <li><img src="./Images/Sec-2/first.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/second.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/third.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fourth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fifth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/sixth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/seventh.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/Eights.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/ninth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/tenth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/eleventh.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twelth.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/fourteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-nine.jpg" alt="" srcset=""></li>
+                <!-- <li><img src="./Images/Sec-2/fifteen.jpg" alt="" srcset="" width="133"height="449"></li> -->
+                <li><img src="./Images/Sec-2/sixteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/seventeen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/eighteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/ninteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirteen.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-one.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-two.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-three.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-five.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-six.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-seven.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-eight.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/twenty-nine.jpg" alt="" srcset=""></li>
+                <li><img src="./Images/Sec-2/thirty.jpg" alt="" srcset=""></li>
+
+            </ul>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="backtop">
+            <span>Back to Top</span>
+        </div>
+        <div class="detail">
+            <div class="table">
+                <div>
+                    <div class="t-head"> Get to know us</div>
+                    <ul>
+                        <li>Careers</li>
+                        <li>Blog</li>
+                        <li>About Amazon</li>
+                        <li>Investors Relation</li>
+                        <li>Amazon Advices</li>
+                        <li>Amazon Science</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="t-head"> Get to know us</div>
+                    <ul>
+                        <li>Careers</li>
+                        <li>Blog</li>
+                        <li>About Amazon</li>
+                        <li>Investors Relation</li>
+                        <li>Amazon Advices</li>
+                        <li>Amazon Science</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="t-head"> Get to know us</div>
+                    <ul>
+                        <li>Careers</li>
+                        <li>Blog</li>
+                        <li>About Amazon</li>
+                        <li>Investors Relation</li>
+                        <li>Amazon Advices</li>
+                        <li>Amazon Science</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="t-head"> Get to know us</div>
+                    <ul>
+                        <li>Careers</li>
+                        <li>Blog</li>
+                        <li>About Amazon</li>
+                        <li>Investors Relation</li>
+                        <li>Amazon Advices</li>
+                        <li>Amazon Science</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="copy"><span>&copy;Designed by Vinita</span></div>
+    </section>
+
+
+    <script src="./apps.js"></script>
+
+</body>
+
+</html>
